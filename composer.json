@@ -1,0 +1,24 @@
+{
+    "name": "willis84/socialite-ravelry",
+    "type": "library",
+    "description": "Ravelry OAuth2 Provider for Laravel Socialite",
+    "keywords": ["laravel", "socialite", "oauth2", "ravelry"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/willis84/socialite-ravelry/issues",
+        "source": "https://github.com/willis84/socialite-ravelry"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.26",
+        "illuminate/http": "^12.42",
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "require": {
+        "laravel/socialite": "^5.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteRavelry\\": "src/"
+        }
+    }
+}
