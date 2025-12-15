@@ -14,12 +14,12 @@
         "source": "https://github.com/willis84/socialite-ravelry"
     },
     "require-dev": {
-        "laravel/pint": "^1.0",
-        "guzzlehttp/guzzle": "^7.0"
+        "laravel/pint": "^1.0"
     },
     "require": {
         "laravel/socialite": "^5.0",
-        "illuminate/support": "^12.0"
+        "illuminate/support": "^12.0",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
         "psr-4": {
